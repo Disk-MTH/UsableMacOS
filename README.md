@@ -36,6 +36,18 @@ Under "Complex modifications" use "Add your own Rule" for each
 
 After that your bindings will be effective. For the rest of the process, you have to remember that the logical key you will see in softwares may not correspond to the physical key you pressed
 
+## [MOS](https://github.com/Caldis/Mos) - Mouse fine-tuning
+
+### Install
+$ brew install --cask mos
+
+### Config
+Under "General"
+- Smooth Scrolling
+- Reverse scroll (Because you can't natively separate scrolling direction for mouse and tackpad)
+- Launch on Login
+- Hide Status Bar Icon
+
 ## [Maccy](https://github.com/p0deje/Maccy) - Clipboard Manager
 
 ### Install
