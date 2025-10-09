@@ -1,0 +1,18 @@
+{
+    "description": "Menu bar on Ctrl+ClickR",
+    "manipulators": [
+        {
+            "from": {
+                "modifiers": { "mandatory": ["command"] },
+                "pointing_button": "button2"
+            },
+            "to": [
+                {
+                    "key_code": "l",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
