@@ -22,23 +22,24 @@ Under "Devices"
 - Enable "Modify Events" and "Ignore vendor events" for your Windows devices (keyboard and mouse) 
 
 Under "Complex modifications" use "Add your own Rule" for each
-- Spotlight on Win
-- Finder on Win+E
-- Settings on Win+I
-- Lock on Win+L
-- Menu bar on Ctrl+ClickR (will be effective after the "meuanywhere" step)
-- Terminal on F4 (will replace spotlight on F4)
-- Swap Cmd and Ctrl
-- Swap Ctrl and Alt for Arrows
+- [Spotlight on Win](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Spotlight%20on%20Win.json)
+- [Finder on Win+E](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Finder%20on%20Win%2BE.json)
+- [Settings on Win+I](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Settings%20on%20Win%2BI.json)
+- [Lock on Win+L](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Lock%20on%20Win%2BL.json)
+- [Menu bar on Ctrl+ClickR](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Menu%20bar%20on%20Ctrl%2BClickR.json) (will be effective after the "meuanywhere" step)
+- [Terminal on F4](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Terminal%20on%20F4.json) (will replace spotlight on F4)
+- [Swap Cmd and Ctrl](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Swap%20Cmd%20and%20Ctrl.json)
+- [Swap Ctrl and Alt for Arrows](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Swap%20Ctrl%20and%20Alt%20for%20Arrows.json)
   - Arrow move to previous/next char
   - Ctrl+Arrow move to previous/next word
   - Alt+Arrow move start/end of line
   - Shift modifier make previous modifiers do a selection
-- Swap Ctrl and Alt for Backspace
+- [Swap Ctrl and Alt for Backspace](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Swap%20Ctrl%20and%20Alt%20for%20Backspace.json)
   - Backspace delete a char
   - Ctrl+Backspace delete a word
   - Alt+Backspace delete the line
 
+**The order of modifications matter, respect it**
 After this, your key bindings will be active. Keep in mind that the logical key shown in software may not match the physical key you pressed.  
 
 ## [MOS](https://github.com/Caldis/Mos) (3.5.0) - Mouse fine-tuning
@@ -83,6 +84,8 @@ Under "Appearance"
 ## [MenuAnywhere](https://github.com/acsandmann/menuanywhere) (1.0.6) - Make the top menu bar avaiblable anywhere
 
 ### Install
+**You need XCode installed on your Mac.**
+
 ```
 brew tap acsandmann/tap
 brew install menuanywhere
@@ -90,7 +93,7 @@ brew install menuanywhere
 
 ### Config
 - Create the config file: `mkdir -p ~/.config/menuanywhere && [ ! -f ~/.config/menuanywhere/config.json ] && touch ~/.config/menuanywhere/config.json`
-- Copy the config inside
+- Copy the [config](https://github.com/Disk-MTH/UsableMacOS/blob/main/menuanywhere/config.json) inside
 
 Restart your Mac for the configuration to take effect.  
 
