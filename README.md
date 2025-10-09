@@ -39,7 +39,7 @@ After that your bindings will be effective. For the rest of the process, you hav
 ## [MOS](https://github.com/Caldis/Mos) - Mouse fine-tuning
 
 ### Install
-$ brew install --cask mos
+`brew install --cask mos`
 
 ### Config
 Under "General"
@@ -47,6 +47,17 @@ Under "General"
 - Reverse scroll (Because you can't natively separate scrolling direction for mouse and tackpad)
 - Launch on Login
 - Hide Status Bar Icon
+
+## [Scroll To Zoom](https://github.com/alphaArgon/ScrollToZoom) - In-app zoom and not OS zoom
+
+### Install
+Get the [latest realease](https://github.com/alphaArgon/ScrollToZoom/releases), unzip it and put it in your "Applications" folder
+
+### Config
+- Use Scroll gesture to zoom with ⌘ (physical key Ctrl)
+- Fingers up to zoom in
+- Allow Mgic Mouse gestures
+- Launch Scroll To Zoom at login
 
 ## [Maccy](https://github.com/p0deje/Maccy) - Clipboard Manager
 
