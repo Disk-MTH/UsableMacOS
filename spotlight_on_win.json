@@ -1,0 +1,17 @@
+{
+    "description": "Spotlight on Win",
+    "manipulators": [
+        {
+            "from": { "key_code": "left_command" },
+            "to": [
+                {
+                    "key_code": "left_control",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "apple_vendor_keyboard_key_code": "spotlight" }],
+            "to_if_held_down": [{ "key_code": "left_control" }],
+            "type": "basic"
+        }
+    ]
+}
