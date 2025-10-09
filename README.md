@@ -1,10 +1,15 @@
 # UsableMacOS
 Make a Mac nearly usable for a Windows user
 
-For everything you will need Homebrew
-Every config is a personnal preference, you can change it
+## Introduction
 
-Apps:
+For the majority of the installations, you will need [Homebrew](https://docs.brew.sh/) installed on you Mac
+
+You will have to grant premissions to each app for various things, juste read what they are asking for, evrything is written
+
+Every configuration I provide below are personnal preferences, you are free to change it
+
+Each of the config lines are the changes I made from the default setup, or important things to change if your default config is not the same anymore
 
 ## [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) (15.5.0) - Keyboard remapper
 
@@ -86,6 +91,8 @@ brew install menuanywhere
 ### Config
 - Create the config file: `mkdir -p ~/.config/menuanywhere && [ ! -f ~/.config/menuanywhere/config.json ] && touch ~/.config/menuanywhere/config.json`
 - Copy the config inside
+
+After that you need to restart the Mac for the config to be effective
 
 ## [Maccy](https://github.com/p0deje/Maccy) (2.5.1) - Clipboard Manager
 
