@@ -1,0 +1,109 @@
+{
+    "description": "Swap Ctrl and Alt for Arrows",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["command", "shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["option", "shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["command"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["command", "shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["option", "shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["command"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["option", "shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["command", "shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["option"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["option", "shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["command", "shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["option"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
