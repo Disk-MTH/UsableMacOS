@@ -6,7 +6,7 @@ Every config is a personnal preference, you can change it
 
 Apps:
 
-## [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - Keyboard remapper
+## [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) (15.5.0) - Keyboard remapper
 
 ### Install
 `brew install --cask karabiner-elements`
@@ -36,7 +36,7 @@ Under "Complex modifications" use "Add your own Rule" for each
 
 After that your bindings will be effective. For the rest of the process, you have to remember that the logical key you will see in softwares may not correspond to the physical key you pressed
 
-## [MOS](https://github.com/Caldis/Mos) - Mouse fine-tuning
+## [MOS](https://github.com/Caldis/Mos) (3.5.0) - Mouse fine-tuning
 
 ### Install
 `brew install --cask mos`
@@ -48,7 +48,7 @@ Under "General"
 - Launch on Login
 - Hide Status Bar Icon
 
-## [Scroll To Zoom](https://github.com/alphaArgon/ScrollToZoom) (1,0.5) - In-app zoom and not OS zoom
+## [Scroll To Zoom](https://github.com/alphaArgon/ScrollToZoom) (1.0.5) - In-app zoom (and not OS zoom)
 
 ### Install
 Get the [latest realease](https://github.com/alphaArgon/ScrollToZoom/releases), unzip it and put it in your "Applications" folder
@@ -59,7 +59,7 @@ Get the [latest realease](https://github.com/alphaArgon/ScrollToZoom/releases), 
 - Allow Mgic Mouse gestures
 - Launch Scroll To Zoom at login
 
-## [AltTab](https://github.com/lwouis/alt-tab-macos) - Alt+Tab by window (an not by app)
+## [AltTab](https://github.com/lwouis/alt-tab-macos) (7.30.0) - Alt+Tab by window (and not by app)
 
 ### Install
 `brew install --cask alt-tab`
@@ -70,34 +70,20 @@ Under "General"
 
 Under "Controls"
 - Trigger shortcut: Hold ⌥ and press ⇥ (physical keys: Alt+Tab)
-- After release: Focus selected window
-- Show windows from Spaces: All apps
-- Show windows from screens: All screens
-- Show minimized windows: Show
-- Show hidden windows: Show
-- Show fullscreen windows: Show
 - Show apps with no open window: Hide
-- Order windows by: Recently Focused First
 
 Under "Appearance"
 - Show on: Screen including mouse
 
-## [Maccy](https://github.com/p0deje/Maccy) - Clipboard Manager
+## [Maccy](https://github.com/p0deje/Maccy) (2.5.1) - Clipboard Manager
 
 ### Install
 `brew install --cask maccy`
 
 ### Config 
+Under "General"
 - Launch at login
 - Open ⌃V (physical keys: Win+V)
+- Paste automatically
 
 
-
-
-AltTab
-
-
-MOS
-
-
-ScrollToZoom
