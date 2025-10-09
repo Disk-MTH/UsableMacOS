@@ -3,13 +3,13 @@ Make a Mac nearly usable for a Windows user
 
 ## Introduction
 
-For the majority of the installations, you will need [Homebrew](https://docs.brew.sh/) installed on you Mac
+For most installations, you will need [Homebrew](https://docs.brew.sh/) installed on your Mac.  
 
-You will have to grant premissions to each app for various things, juste read what they are asking for, evrything is written
+You will have to grant permissions to each app for various features. Just read what they are asking for — everything is explained.  
 
-Every configuration I provide below are personnal preferences, you are free to change it
+Every configuration I provide below reflects my personal preferences; you are free to change them.  
 
-Each of the config lines are the changes I made from the default setup, or important things to change if your default config is not the same anymore
+Each configuration line represents changes I made from the default setup or important adjustments if your default configuration differs.  
 
 ## [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) (15.5.0) - Keyboard remapper
 
@@ -39,7 +39,7 @@ Under "Complex modifications" use "Add your own Rule" for each
   - Ctrl+Backspace delete a word
   - Alt+Backspace delete the line
 
-After that your bindings will be effective. For the rest of the process, you have to remember that the logical key you will see in softwares may not correspond to the physical key you pressed
+After this, your key bindings will be active. Keep in mind that the logical key shown in software may not match the physical key you pressed.  
 
 ## [MOS](https://github.com/Caldis/Mos) (3.5.0) - Mouse fine-tuning
 
@@ -92,7 +92,7 @@ brew install menuanywhere
 - Create the config file: `mkdir -p ~/.config/menuanywhere && [ ! -f ~/.config/menuanywhere/config.json ] && touch ~/.config/menuanywhere/config.json`
 - Copy the config inside
 
-After that you need to restart the Mac for the config to be effective
+Restart your Mac for the configuration to take effect.  
 
 ## [Maccy](https://github.com/p0deje/Maccy) (2.5.1) - Clipboard Manager
 
