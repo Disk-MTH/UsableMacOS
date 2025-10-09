@@ -5,7 +5,9 @@ Make a Mac nearly usable for a Windows user
 
 For most installations, you will need [Homebrew](https://docs.brew.sh/) installed on your Mac.  
 
-You will have to grant permissions to each app for various features. Just read what they are asking for — everything is explained.  
+You will have to grant permissions to each app for various features. Just read what they are asking for — everything is explained.
+
+Some of the app may be blocked by MacOS, you need to allow them in "Privacy & Security" settings
 
 Every configuration I provide below reflects my personal preferences; you are free to change them.  
 
