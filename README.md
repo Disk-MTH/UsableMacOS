@@ -75,6 +75,18 @@ Under "Controls"
 Under "Appearance"
 - Show on: Screen including mouse
 
+## [MenuAnywhere](https://github.com/acsandmann/menuanywhere) (1.0.6) - Make the top menu bar avaiblable anywhere
+
+### Install
+```
+brew tap acsandmann/tap
+brew install menuanywhere
+```
+
+### Config
+- Create the config file: `mkdir -p ~/.config/menuanywhere && [ ! -f ~/.config/menuanywhere/config.json ] && touch ~/.config/menuanywhere/config.json`
+- Copy the config inside
+
 ## [Maccy](https://github.com/p0deje/Maccy) (2.5.1) - Clipboard Manager
 
 ### Install
