@@ -44,20 +44,43 @@ After that your bindings will be effective. For the rest of the process, you hav
 ### Config
 Under "General"
 - Smooth Scrolling
-- Reverse scroll (Because you can't natively separate scrolling direction for mouse and tackpad)
+- Reverse Scroll
 - Launch on Login
 - Hide Status Bar Icon
 
-## [Scroll To Zoom](https://github.com/alphaArgon/ScrollToZoom) - In-app zoom and not OS zoom
+## [Scroll To Zoom](https://github.com/alphaArgon/ScrollToZoom) (1,0.5) - In-app zoom and not OS zoom
 
 ### Install
 Get the [latest realease](https://github.com/alphaArgon/ScrollToZoom/releases), unzip it and put it in your "Applications" folder
 
 ### Config
-- Use Scroll gesture to zoom with ⌘ (physical key Ctrl)
+- Use Scroll gesture to zoom with ⌘ (physical key: Ctrl)
 - Fingers up to zoom in
 - Allow Mgic Mouse gestures
 - Launch Scroll To Zoom at login
+
+## [AltTab](https://github.com/lwouis/alt-tab-macos) - Alt+Tab by window (an not by app)
+
+### Install
+`brew install --cask alt-tab`
+
+### Config
+Under "General"
+- Start at login
+
+Under "Controls"
+- Trigger shortcut: Hold ⌥ and press ⇥ (physical keys: Alt+Tab)
+- After release: Focus selected window
+- Show windows from Spaces: All apps
+- Show windows from screens: All screens
+- Show minimized windows: Show
+- Show hidden windows: Show
+- Show fullscreen windows: Show
+- Show apps with no open window: Hide
+- Order windows by: Recently Focused First
+
+Under "Appearance"
+- Show on: Screen including mouse
 
 ## [Maccy](https://github.com/p0deje/Maccy) - Clipboard Manager
 
@@ -66,7 +89,7 @@ Get the [latest realease](https://github.com/alphaArgon/ScrollToZoom/releases), 
 
 ### Config 
 - Launch at login
-- Open ^V (physical key Win+V)
+- Open ⌃V (physical keys: Win+V)
 
 
 
