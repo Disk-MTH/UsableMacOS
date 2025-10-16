@@ -51,7 +51,6 @@ After this, your key bindings will be active. Keep in mind that the logical key 
 
 ### Config
 Under "General"
-- Smooth Scrolling
 - Reverse Scroll
 - Launch on Login
 - Hide Status Bar Icon
