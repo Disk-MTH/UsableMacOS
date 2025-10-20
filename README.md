@@ -28,6 +28,7 @@ Under "Complex modifications" use "Add your own Rule" for each
 - [Finder on Win+E](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Finder%20on%20Win%2BE.json)
 - [Settings on Win+I](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Settings%20on%20Win%2BI.json)
 - [Lock on Win+L](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Lock%20on%20Win%2BL.json)
+- [Emojis on Win+Space](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Emojis%20on%20Win%2BSpace)
 - [Menu bar on Ctrl+ClickR](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Menu%20bar%20on%20Ctrl%2BClickR.json) (will be effective after the "meuanywhere" step)
 - [Terminal on F4](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Terminal%20on%20F4.json) (will replace spotlight on F4)
 - [Swap Cmd and Ctrl](https://github.com/Disk-MTH/UsableMacOS/blob/main/karabiner-elements/Swap%20Cmd%20and%20Ctrl.json)
