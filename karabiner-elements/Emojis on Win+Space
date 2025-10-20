@@ -1,0 +1,13 @@
+{
+    "description": "Emojis on Win+Space",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "mandatory": ["left_control"] }
+            },
+            "to": [{ "key_code": "fn" }],
+            "type": "basic"
+        }
+    ]
+}
